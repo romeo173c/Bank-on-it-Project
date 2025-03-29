@@ -1,6 +1,6 @@
-//User.java
 
-public abstract class User implements hasMenu {
+
+public abstract class User implements HasMenu {
     private String  userName;
     private String PIN;
 
@@ -34,8 +34,7 @@ public abstract class User implements hasMenu {
         return PIN;
     }
 
-    public abstract String getReport();{
-    }
+    public abstract String getReport();
 
 
 
